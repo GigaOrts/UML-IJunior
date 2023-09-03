@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T14:43:56.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="K6U0PdtAWU2wTEZYO-b4" version="21.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-03T14:45:08.195Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="xizpEjomnZkAA0KR23Jx" version="21.7.2" type="github" pages="2">
   <diagram id="Cf2g2hGz_eaC0kWmKfeo" name="База Данных Игроков">
     <mxGraphModel dx="960" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,8 +33,8 @@
         <mxCell id="_xTozI4Q2du8KuB2-w1n-3" value="Deck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="450" width="200" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="_xTozI4Q2du8KuB2-w1n-4" value="Card&lt;br&gt;-suit: string&lt;br&gt;-value: char&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="450" width="200" height="240" as="geometry" />
+        <mxCell id="_xTozI4Q2du8KuB2-w1n-4" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;Card&lt;br&gt;- suit: string&lt;br&gt;- value: char&lt;br&gt;&lt;br&gt;+ ShowInfo()&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="550" width="200" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
