@@ -1,0 +1,134 @@
+<mxfile host="app.diagrams.net" modified="2023-09-03T19:14:47.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="skJI1SQ_wrYzi6Pa-CRu" version="21.7.2" type="github" pages="4">
+  <diagram id="Cf2g2hGz_eaC0kWmKfeo" name="База Данных Игроков">
+    <mxGraphModel dx="973" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BvsRi00MSLJCYbzShoM3-1" value="&lt;font face=&quot;Verdana&quot;&gt;Player&lt;br&gt;&lt;/font&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;- id: int&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;- level: int&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;- name: string&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;- isBanned: bool&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Ban&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;+ Unban&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;+ ShowInfo&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;+ GetId: int&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacing=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="246" width="115" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMWLHTGk8VHgxppxQVbv-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;sourcePerimeterSpacing=0;strokeWidth=1;startArrow=diamondThin;startFill=1;jumpSize=6;rounded=0;strokeColor=default;endSize=6;startSize=12;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="qxw1vTytd-DOzJbU_Vhw-1" target="BvsRi00MSLJCYbzShoM3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qxw1vTytd-DOzJbU_Vhw-1" value="&lt;span style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;Database&lt;/span&gt;&lt;br&gt;&lt;hr style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- players: List&amp;lt;Player&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- idCounter: int&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;hr style=&quot;text-align: left; background-color: initial;&quot;&gt;&lt;span style=&quot;background-color: initial; font-family: Verdana;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Add()&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Remove()&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Ban()&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Unban()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ShowAll()&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;- TryFind(id: int, out player: Player): bool&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacing=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="245" width="262" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMWLHTGk8VHgxppxQVbv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="BvsRi00MSLJCYbzShoM3-1" target="BvsRi00MSLJCYbzShoM3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnUlUlkhFv1DUZ1QUCw0-1" value="+ Dictionary variant" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="525" y="463" width="210" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y0pcPyQ9-cA2Ly51FoLA" name="Колода Карт">
+    <mxGraphModel dx="695" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L67TZkdD2saoKafYtCv_-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;strokeWidth=1;startSize=12;endSize=6;endArrow=open;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="_xTozI4Q2du8KuB2-w1n-1" target="_xTozI4Q2du8KuB2-w1n-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="231" />
+              <mxPoint x="494" y="366" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L67TZkdD2saoKafYtCv_-3" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=0;strokeWidth=1;endSize=6;startSize=12;endArrow=open;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="_xTozI4Q2du8KuB2-w1n-1" target="_xTozI4Q2du8KuB2-w1n-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579" y="201" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_xTozI4Q2du8KuB2-w1n-1" value="Croupier&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- player: Player&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- deck: Deck&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ DealCard()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="181" width="94" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_xTozI4Q2du8KuB2-w1n-2" value="Player&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- cards: List&amp;lt;Card&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ShowCards()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Add(card: Card)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="181" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OECXQ_HGNrMJNdoMd47i-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=diamondThin;startFill=1;strokeWidth=1;endArrow=open;endFill=0;startSize=12;endSize=6;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="_xTozI4Q2du8KuB2-w1n-3" target="_xTozI4Q2du8KuB2-w1n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_xTozI4Q2du8KuB2-w1n-3" value="Deck&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- cards: List&amp;lt;Card&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ShowCards()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ DrawCard(): Card&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Fill()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Shuffle()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="534" y="301" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_xTozI4Q2du8KuB2-w1n-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Card&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- suit: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- value: string&lt;/span&gt;&lt;/div&gt;&lt;hr&gt;+ ShowInfo()" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;horizontal=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="704" y="316" width="86" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eR-oKEQ3THdKekHEpbn2-1" value="+ points variant" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="185" y="113" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iZcS9gSNP3eOQmojUR20" name="Хранилище Книг">
+    <mxGraphModel dx="834" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9-JIwjo3csv5uXHmiW8V-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Book&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- title: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- author: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- year: int&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- id: int&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ShowInfo()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ GetId(): int&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="222" width="90" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="VPENAkqC2ZvWxOAGdNku-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;startArrow=diamondThin;startFill=1;startSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" target="9-JIwjo3csv5uXHmiW8V-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="306.65999999999997" as="sourcePoint" />
+            <mxPoint x="669" y="306.65999999999997" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VPENAkqC2ZvWxOAGdNku-1" value="Library&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- books: List&amp;lt;Book&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;hr&gt;+ ShowAll()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ Add()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ Remove()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ FindByTitle(): Book&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ FindByAuthor(): Book&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ FindByYear(): Book&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- TryFind(id: int, out book: Book): bool&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="222" width="211" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o3sKnfZYgxF7wiAbnnmk" name="Магазин">
+    <mxGraphModel dx="1007" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-1" value="Product&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- name: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- price: int&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ShowInfo()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ GetPrice(): int&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="163" y="311.5" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=0;startSize=12;endArrow=open;endFill=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="pIMuoIBpgu1z1KpGt_sh-2" target="pIMuoIBpgu1z1KpGt_sh-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="343" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=12;startArrow=block;startFill=0;endArrow=open;endFill=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="pIMuoIBpgu1z1KpGt_sh-2" target="pIMuoIBpgu1z1KpGt_sh-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543" y="367" />
+              <mxPoint x="543" y="322" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="pIMuoIBpgu1z1KpGt_sh-2" target="pIMuoIBpgu1z1KpGt_sh-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-2" value="Person&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- products: List&amp;lt;Product&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- money: int&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ ShowProducts()&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="317" width="150" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-5" value="Seller&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ TryFindProduct(out product: Product): bool&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Sell()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="603" y="377" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-7" value="Buyer&lt;br&gt;&lt;hr&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ CanPay(): bool&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Buy()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="603" y="287" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;startSize=12;startArrow=diamondThin;startFill=0;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="pIMuoIBpgu1z1KpGt_sh-9" target="pIMuoIBpgu1z1KpGt_sh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;startSize=12;sketch=1;curveFitting=1;jiggle=2;shadow=1;" edge="1" parent="1" source="pIMuoIBpgu1z1KpGt_sh-9" target="pIMuoIBpgu1z1KpGt_sh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-9" value="Shop&lt;br&gt;&lt;hr&gt;- buyer: Buyer&lt;br&gt;- seller: Seller&lt;br&gt;&lt;hr&gt;+ Trade()" style="whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="683" y="97" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mONfeSVAKvL_6cB5GcHz-1" value="+ Slot variant&lt;br&gt;+ Dictionary variant" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="163" y="80" width="201" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
