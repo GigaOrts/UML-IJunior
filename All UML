@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T13:40:04.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="PlD7xb45a2XT0xygVNBe" version="21.7.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-09-18T13:54:19.288Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="Lv5NBvlyujEFPK43UyiQ" version="21.7.5" type="github" pages="7">
   <diagram id="Cf2g2hGz_eaC0kWmKfeo" name="База Данных Игроков">
     <mxGraphModel dx="1525" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -53,9 +53,6 @@
         <mxCell id="_xTozI4Q2du8KuB2-w1n-4" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;Card&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;- suit: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;- value: string&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;+ ShowInfo()" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;horizontal=1;shadow=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="728.1" y="360" width="146" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="eR-oKEQ3THdKekHEpbn2-1" value="+ points variant" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="700" width="170" height="40" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -81,53 +78,69 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o3sKnfZYgxF7wiAbnnmk" name="Магазин">
-    <mxGraphModel dx="1525" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1794" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pIMuoIBpgu1z1KpGt_sh-1" value="Product&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;- name: string&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;- price: int&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ ShowInfo()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ GetPrice(): int&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="18" y="203.5" width="162" height="190" as="geometry" />
+          <mxGeometry x="90.5" width="162" height="190" as="geometry" />
         </mxCell>
         <mxCell id="pIMuoIBpgu1z1KpGt_sh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=0;startSize=24;endArrow=open;endFill=0;shadow=0;fontSize=20;endSize=12;" parent="1" source="pIMuoIBpgu1z1KpGt_sh-2" target="pIMuoIBpgu1z1KpGt_sh-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="343" y="477" as="targetPoint" />
+            <mxPoint x="163" y="477" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="333" />
-              <mxPoint x="510" y="430" />
+              <mxPoint x="330" y="333" />
+              <mxPoint x="330" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pIMuoIBpgu1z1KpGt_sh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=24;startArrow=block;startFill=0;endArrow=open;endFill=0;shadow=0;fontSize=20;endSize=12;" parent="1" source="pIMuoIBpgu1z1KpGt_sh-2" target="pIMuoIBpgu1z1KpGt_sh-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="510" y="333" />
-              <mxPoint x="510" y="269" />
+              <mxPoint x="330" y="333" />
+              <mxPoint x="330" y="249" />
+              <mxPoint x="350" y="249" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pIMuoIBpgu1z1KpGt_sh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;shadow=0;fontSize=20;startSize=16;endSize=12;" parent="1" source="pIMuoIBpgu1z1KpGt_sh-2" target="pIMuoIBpgu1z1KpGt_sh-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;shadow=0;fontSize=20;startSize=16;endSize=12;" parent="1" source="pIMuoIBpgu1z1KpGt_sh-2" target="pIMuoIBpgu1z1KpGt_sh-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="172" y="220" />
+              <mxPoint x="172" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pIMuoIBpgu1z1KpGt_sh-2" value="Person&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;- products: List&amp;lt;Product&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;- money: int&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ ShowProducts()&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="230" y="250" width="243" height="166" as="geometry" />
+          <mxGeometry x="50" y="250" width="243" height="166" as="geometry" />
         </mxCell>
         <mxCell id="pIMuoIBpgu1z1KpGt_sh-5" value="Seller&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ TryFindProduct(out product: Product): bool&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ Sell()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="600" y="370" width="420" height="120" as="geometry" />
+          <mxGeometry x="386.5" y="350" width="420" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pIMuoIBpgu1z1KpGt_sh-7" value="Buyer&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ CanPay(): bool&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ Buy()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="600" y="210" width="173" height="117" as="geometry" />
-        </mxCell>
-        <mxCell id="dDYNzAEejAZ6ADVb8SKg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=24;endSize=12;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;shadow=0;" parent="1" source="pIMuoIBpgu1z1KpGt_sh-9" target="pIMuoIBpgu1z1KpGt_sh-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dDYNzAEejAZ6ADVb8SKg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startSize=24;endSize=12;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;shadow=0;" parent="1" source="pIMuoIBpgu1z1KpGt_sh-9" target="pIMuoIBpgu1z1KpGt_sh-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dDYNzAEejAZ6ADVb8SKg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=24;endSize=12;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;shadow=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="pIMuoIBpgu1z1KpGt_sh-9" target="pIMuoIBpgu1z1KpGt_sh-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="724.25" y="180" as="sourcePoint" />
+            <mxPoint x="668.75" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="702" y="310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pIMuoIBpgu1z1KpGt_sh-9" value="Shop&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- buyer: Buyer&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- seller: Seller&lt;/span&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Trade()&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="920" y="30" width="153" height="160" as="geometry" />
+          <mxGeometry x="625" y="3" width="153" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="mONfeSVAKvL_6cB5GcHz-1" value="+ Slot variant&lt;br&gt;+ Dictionary variant" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="18" y="714" width="201" height="60" as="geometry" />
+        <mxCell id="OhJfXIFK63UQTjk-6bXY-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startSize=24;endSize=12;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;shadow=0;" edge="1" parent="1" source="pIMuoIBpgu1z1KpGt_sh-9" target="pIMuoIBpgu1z1KpGt_sh-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="120" as="sourcePoint" />
+            <mxPoint x="570" y="296" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="702" y="240" />
+              <mxPoint x="702" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pIMuoIBpgu1z1KpGt_sh-7" value="Buyer&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;hr style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ CanPay(): bool&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;+ Buy()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="386.5" y="190" width="173" height="117" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
